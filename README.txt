@@ -22,7 +22,7 @@ only recommended for further development of the plattform or demonstration purpo
 
 Option 1: Installation using own webspace
 
-1 - Download and unzip the 'scrumBoardFuerStudis.zip' archive.
+1 - Download the 'finalBoard' folder.
 
 2 - Upload the complete folder 'scrumBoard' to your webspace.
 
