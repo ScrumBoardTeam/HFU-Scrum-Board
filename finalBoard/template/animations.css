@@ -1,0 +1,40 @@
+
+/*****Animations*****/
+
+/* Blendet nacheinander 4 Bilder in bestimmten Intervallen ein */
+/* aufblinken der einzelnen HFU Buchstaben */
+/* Loop: normal, H = hellgrün, F = hellgrün, U = hellgrün, normal */
+/* Nutzt Fade-Effekt beim Überblenden */
+@-webkit-keyframes logo_right_ani {
+        0% {
+		background: url(../images/logo_right_1.png) no-repeat;
+	}
+        80% {
+		background: url(../images/logo_right_1.png) no-repeat;
+	}
+        85% {
+		background: url(../images/logo_right_2.png) no-repeat;
+	}
+        90% {
+		background: url(../images/logo_right_3.png) no-repeat;
+	}
+        95% {
+		background: url(../images/logo_right_4.png) no-repeat;
+	}
+        100% {
+		background: url(../images/logo_right_1.png) no-repeat;
+	}
+
+}
+
+/* Lässt einen Div stetig rotieren */
+/* Logo-Symbol (Achteck) dreht dauerhaft */
+@-webkit-keyframes logo_left_ani {
+        0% {
+            -webkit-transform:rotate(0deg);
+	}
+        100% {
+            -webkit-transform:rotate(360deg);
+        }
+
+}

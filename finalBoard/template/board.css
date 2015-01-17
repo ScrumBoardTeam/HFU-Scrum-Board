@@ -1,0 +1,61 @@
+
+/*****Board*****/
+
+/* Stylesheet für den Board-Bereich */
+/* Layout mit 4 Spalten */
+
+/* Haupt-Contaier: Board + Sprintmenu */
+/* Sprintmenu besitzt eigenes Stylesheet. sprintlist.css */
+#board {
+	width: 900px;
+	height: auto;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Board-Contaier Kopfzeile */
+#board_top {
+	width: 900px;
+	height: 40px;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	background: url(../images/board_top.png) no-repeat;
+}
+
+/* Board-Contaier Aufgabenbereich */
+#board_mid {
+	width: 900px;
+	height: auto;
+	min-height: 400px;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	display: table;
+	background: url(../images/board_mid.png) repeat-y;
+}
+
+/* Board-Contaier Fußzeile */
+#board_bot {
+	width: 900px;
+	height: 10px;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	background: url(../images/board_bot.png) no-repeat;
+}
+
+
+
+/*****Spalten*****/
+
+/* alle 4 Spalten haben gleiche Eigenschaften */
+#col_toDo, #col_inPr, #col_test, #col_done {
+	width: 225px;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	display: table-cell; /* damit Spalten zusammen skalieren */
+	vertical-align: top; /* table-cell zentriert Aufgaben vertikal bei default */
+}

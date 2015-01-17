@@ -1,0 +1,47 @@
+
+/*****Sprintlist*****/
+
+/* Sprintmenu-Div */
+#sprintlist {
+	width: 60px;
+	min-height: 10px;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+/* Liste */
+ul#sprintlist {
+	margin: 0;
+	padding: 40px 0 0 0;
+	list-style: none;
+}
+
+/* Listenelemente */
+ul#sprintlist li {
+	margin: 0;
+	padding: 0;
+}
+
+/* Ankerelemente, Links */
+ul#sprintlist a, ul#sprintlist a:link, ul#sprintlist a:visited{
+	display: block;
+	height: 40px;
+	margin: 0;
+	padding: 0;
+	color: #ffffff;
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	background: url(../images/sprintlist.png) no-repeat; 
+	transition: background-position 1s;
+}
+
+/* Hover: Verschiebung der Hintergrundgrafik */
+/* Slide-Effekt */
+/* von rechts nach links */
+/* von hellgrün zu dunkelgrün */
+ul#sprintlist a:hover {
+	background-position: -60px 0;
+	transition: background-position 1s;
+}

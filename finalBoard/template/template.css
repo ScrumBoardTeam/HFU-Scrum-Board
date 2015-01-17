@@ -1,0 +1,133 @@
+
+/*****Template*****/
+
+/* Hauptbereiche */
+/* und Hauptfunktionen */
+
+
+
+/*****Body*****/
+body {
+	color: #000000;
+	font-family: Calibri, Arial, Sans, Helvetica, sans-serif;
+	background: #e0e1e1;	
+}
+
+
+
+/*****Mauszeiger*****/
+
+/* ändert Mauszeiger bei Mouseover von drag&drop-Elementen */
+[draggable=true] {
+	cursor: pointer;
+}
+
+
+
+/*****Links*****/
+
+/* dunkelgrüne Links, keine Dekoration */
+/* Links und besuchte Links nicht unterscheiden */
+a:link, a:visited {
+	color: #008854;
+	text-decoration: none;
+}
+
+/* Hover: Änderung der Schriftfarbe */
+/* von dunkelgrün zu hellgrün */
+a:hover {
+	color: #89bb25;
+	text-decoration: none;
+}
+
+
+
+/*****Wrapper*****/
+
+/* alles umfassender Wrapper-Container, zentriert */
+#wrapper {
+	width: 960px;
+	height: auto;
+	margin: auto;
+	position: absolute;	/* zum */
+	left: 50%;		/* mittig */
+	margin-left: -480px;	/* zentrieren */
+}
+
+
+
+/*****Header*****/
+
+/* Header-Contaier: Logo und Hauptmenu */
+#header {
+	width: 960px;
+	height: 100px;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+/* Logo: Symbol */
+#logo_left {
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin: 0;
+	padding: 0;
+	background: url(../images/logo_left.png) no-repeat;
+	-webkit-animation: logo_left_ani linear 20s infinite;	/* Animation: rotierend */
+}
+
+/* Logo: Schriftzug */
+#logo_right {
+	width: 370px;
+	height: 100px;
+	float: left;
+	margin: 0;
+	padding: 0;
+	background: url(../images/logo_right.png) no-repeat;
+	-webkit-animation: logo_right_ani 10s infinite;		/* Animation: aufblinkend */
+}
+
+
+
+/*****Main*****/
+
+/* Haupt-Contaier: Board + Sprintmenu */
+#main {
+	width: 960px;
+	height: auto;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/*****Content*****/
+
+/* Content-Bereich */
+/* innerhalb der FancyBox */
+/* Chart, Impressum, alle Formulare */
+#content {
+	width: 600px;
+	height: auto;
+	float: left;
+	margin: 10px 20px 10px 30px;
+	padding: 10px;
+	background: #ffffff;
+}
+
+
+
+/*****Footer*****/
+
+/* Footer-Container: Copyright, Teilnehmer, Hochschule, Impressum */
+#footer {
+	width: 960px;
+	height: 40px;
+	float: left;
+	margin: 0;
+	padding: 10px 0 0 0;
+	text-align: center;
+}

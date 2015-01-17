@@ -1,0 +1,40 @@
+
+/*****Backlog*****/
+
+/* Backlog-Bereich, links, Liste aller Tasks */
+#backlog {
+	width: 410px;
+	height: 330px;
+	float: left;
+	margin: 0;
+	padding: 0;
+	overflow: scroll;
+}
+
+/* Sprint-Bereich, rechts, Menu und Drop-Bereich  */
+#sprint {
+	width: 150px;
+	height: 330px;
+	float: left;
+	margin: 0;
+	padding: 0 10px 0 10px;
+}
+
+/* DropDown-Menu zur Auswahl des Sprints */
+#sprintDdMenu {
+	width: 150px;
+	height: auto;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+/* Drop-Bereich zum Ablegen von Tasks */
+#dropzone {
+	width: 124px;
+	height: auto;
+	float: left;
+	margin: 10px 0 10px 0;
+	padding: 10px;
+	border: 3px dotted #bfbfbf;
+}

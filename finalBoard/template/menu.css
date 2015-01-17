@@ -1,0 +1,53 @@
+
+/*****Menu*****/
+
+/* Hauptmenu */
+/* vertikales Listenmenu */
+/* Links über Bilder realisiert */
+/* fix 4 Buttons */
+
+/* Hauptmenu-Div */
+#menu {
+	width: 490px;
+	height: 100px;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+/* Liste */
+ul#menu {
+	width: 360px;
+	height: 90px;
+	margin: 10px 0 0 130px;
+	padding: 0 0 0 0;
+	list-style: none;
+	text-align: right;
+}
+
+/* Listenelemente */
+ul#menu li {
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+
+/* Ankerelemente, Links */
+ul#menu a, ul#menu a:link, ul#menu a:visited{
+	display: block;
+	float: left;
+	height: 80px;
+	margin: 0 10px 0 0;
+	padding: 0;
+	color: #ffffff;
+	background: url(../images/menu_but/menu_but.png) no-repeat;
+	transition: background 2s;
+}
+
+/* Hover: Wechsel der Hintergrundgrafik */
+/* Fade-Effekt */
+/* von hellgrün zu dunkelgrün */
+ul#menu a:hover {
+	background: url(../images/menu_but/menu_but_hov.png) no-repeat;
+	transition: background 2s;
+}

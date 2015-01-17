@@ -1,0 +1,79 @@
+
+/*****Tasks*****/
+
+/* Stylesheet zur Darstellung der Tasks auf dem Board */
+/* unterscheidet sich von Darstellung im Backlog */
+
+.task {
+	width: 201px;
+	height: 80px;
+	float: left;
+	margin: 0 7px 5px 7px;
+	padding: 5px;
+	background: #ffffff;
+}
+
+.taskTitle {
+	width: 181px;
+	height: 20px;
+	float: left;
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.taskPriority {
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.taskDescription {
+	width: 181px;
+	height: 60px;
+	float: left;
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	overflow: hidden;
+}
+
+.taskType {
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.taskEdit {
+	width: 20px; 
+	height: 20px;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+
+.taskDelete {
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/*****Hover*****/
+
+/* Div-Hintergrund fadet bei Mouseover zu blass-gelb */
+.task:hover {
+	background: #ebeac2;
+	transition: background 1s;
+}
