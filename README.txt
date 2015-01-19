@@ -24,7 +24,7 @@ Option 1: Installation using own webspace
 
 1 - Download the 'finalBoard' folder.
 
-2 - Upload the complete folder 'scrumBoard' to your webspace.
+2 - Upload the complete folder to your webspace.
 
 3 - Create a MySQL-database on the same server called 'scrumboard'.
     You can use: CREATE DATABASE scrumboard;
