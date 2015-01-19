@@ -1,0 +1,104 @@
+body {
+	color: #000000;
+	font-family: Calibri, Arial, Sans, Helvetica, sans-serif;
+	background: #e0e1e1;	
+}
+
+
+
+/*****Mauszeiger*****/
+[draggable=true] {
+	cursor: pointer;
+}
+
+
+
+/*****Links*****/
+a:link, a:visited {
+	color: #008854;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #89bb25;
+	text-decoration: none;
+}
+
+
+
+/*****Wrapper*****/
+#wrapper {
+	width: 960px;
+	height: auto;
+	margin: auto;
+	position: absolute;
+	left: 50%;
+	margin-left: -480px;
+}
+
+
+
+/*****Header*****/
+#header {
+	width: 960px;
+	height: 100px;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#logo_left {
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin: 0;
+	padding: 0;
+	background: url(../images/logo_left.png) no-repeat;
+	-webkit-animation: logo_left_ani linear 20s infinite;
+}
+
+#logo_right {
+	width: 370px;
+	height: 100px;
+	float: left;
+	margin: 0;
+	padding: 0;
+	background: url(../images/logo_right.png) no-repeat;
+	-webkit-animation: logo_right_ani 10s infinite;
+}
+
+
+
+/*****Main*****/
+#main {
+	width: 960px;
+	height: auto;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/*****Content*****/
+/** Innerhalb der FancyBox **/
+#content {
+	width: 600px;
+	height: auto;
+	float: left;
+	margin: 10px 20px 10px 30px;
+	padding: 10px;
+	background: #ffffff;
+}
+
+
+
+/*****Footer*****/
+#footer {
+	width: 960px;
+	height: 40px;
+	float: left;
+	margin: 0;
+	padding: 10px 0 0 0;
+	text-align: center;
+}
